@@ -1,0 +1,105 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+@media (max-width: 992px) {
+  .description-main-firstp {
+    font-size: 50px;
+  }
+  .step-text {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+      border-radius: 0;
+  }
+  .img-author {
+    filter: grayscale(100%);
+  }
+  .img-author:hover {
+    filter: grayscale(0) brightness(100%);
+  }
+  .step-number {
+    font-size: 100px;
+  }
+  .step-text {
+    line-height: 135px;
+  }
+  .step-description-first, .step-container {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-background {
+    background-size: cover;
+  }
+  .navigation-bar {
+    background-color: #ffffff;
+  }
+
+  .gamebox {
+    max-width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .description-main {
+    margin-top: 0;
+  }
+  .description-main-firstp {
+    font-size: 40px;
+  }
+  .badge-download {
+    max-width: 192px;
+  }
+  .step-verb-container {
+    margin-bottom: 20px;
+  }
+  .step-number, .step-text {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .card-step {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  .badge-download-first {
+    float: right;
+  }
+}
+
+@media (max-width: 400px) {
+  .badges-download .col-xs-6 {
+    width: 100%;
+  }
+
+  .badge-download {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: none;
+  }
+  .badge-download-first {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 340px) {
+  h1 {
+    font-size: 32px;
+  }
+}

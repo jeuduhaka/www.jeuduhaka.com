@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.logo-img {
+  float: left;
+  max-height: 100%;
+}
+.logo-text {
+  font-family: "charcuterie_sans_inlineRg";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+  color: #014DA2;
+  margin: 0;
+  padding: 5px 0 0 10px;
+  float: left;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.navbar {
+  background: none;
+}
+.navigation-bar {
+  padding-bottom: 4px;
+  padding-top: 15px;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  transition: background-color .5s;
+  z-index: 2;
+}
+.navbar-brand {
+  padding: 0 0 0 15px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.navbar-brand:hover .logo-img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.navigation-bar ul a {
+    font-family: Lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 10px;
+    opacity: .8;
+    padding: 10px 8px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #014DA2;
+}
+
+.header-background {
+  background-image: url("/img/fond-bleu-vague-1980x1980.jpg");
+  /*background-color: #999;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+  padding-bottom: 40px;
+}
+.navbar-nav>li>a {
+  padding-top: 15px;
+  font-family: 'charcuterie_sans_inlineRg';
+  font-size: 20px;
+  color: #014DA2;
+}
+/*
+Couleur bleu vert comme sur 1ere couv #007576
+Font "La force du corps et de l'esprit est en toi" Driver Gothic Pro
+
+*/
+.nav>li>a:focus, .nav>li>a:hover, .nav>li>a.active {
+  background-color: rgba(238, 238, 238, 0.5);
+}
+
+
+
+
+
+.gamebox {
+  /*transition: all .3s ease-out;*/
+  max-height: 100%;
+}
+.gamebox:hover {
+   /*transform: scale(1.05);*/
+}
+
+.section-pad {
+  margin: 40px auto;
+}
+
+.description-main {
+  text-align: center;
+  /*background: rgba(255, 255, 255, 0.3);*/
+  margin-top: 60px;
+}
+
+.description-main-firstp {
+  font-family: 'charcuterie_sans_inlineRg';
+  color: #014DA2;
+  font-size: 60px;
+  text-shadow: 0px 2px 10px rgba(255,255,255,1);
+}
+.description-main-secondp {
+  font-family: 'charcuterie_sans_inlineRg';
+  color: #014DA2;
+  font-size: 24px;
+}
+.description-main-lastp {
+  margin: 0;
+}
+.description-main-mana {
+  font-family: 'charcuterie_sans_inlineRg';
+  color: #014DA2;
+}
+.description-main-fb-btn {
+  margin-top: 30px;
+}
+
+.badge-download {
+  max-height: 50px;
+}
+
+.info {
+  background-color: #eeeeee;
+  padding: 20px 0;
+}
+
+.step-verb-container {
+  margin-top: 10%;
+}
+
+.step-number {
+  font-size: 60px;
+  font-family: "europeanpiregular";
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+.color-red {
+  color: #B8282E;
+}
+.color-orange {
+  color: #F7941C;
+}
+.color-green {
+  color: #39B549;
+}
+
+.step-text {
+  font-size: 36px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.card-step {
+  border-radius: 22px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.step-description-last {
+  margin-top: 40px;
+}
+
+/*
+VIDEO SECTION
+ */
+.video-trailer {
+  background-attachment: fixed;
+  background-image: url("/img/fond-bleu-vague-1980x1980.jpg");
+  /*background-color: #999;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 60px 0;
+}
+.video-container {
+  max-width: 768px;
+  /*padding:2px;*/
+  background-color: black;
+  /*margin: -60px auto 60px auto;*/
+  margin: 0 auto;
+  /*border-radius: 6px;*/
+  /*box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
+}
+.video-container+.video-container {
+  margin-top: 40px;
+}
+
+/*
+AUTHORS SECTION
+ */
+
+.header-background .authors .caption {
+  margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.home .authors {
+  padding-top: 60px;
+}
+.home .authors {
+  background-color: #eeeeee;
+}
+
+.authors .thumbnail {
+  border: none;
+  background: none;
+}
+
+.img-author {
+  background-color: #ffffff;
+}
+
+.author-name {
+  font-family: "charcuterie_sans_inlineRg";
+}
+
+.author-name, .author-description, .author-website {
+  text-align: center;
+}
+
+.photo-cell img {
+  width: 100%;
+}
+
+.photo-cell {
+  margin: 30px 0;
+}
+
+/*
+FOOTER SECTION
+ */
+
+.footer-black {
+  background: #232323;
+background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,#585858),color-stop(100%,#232323));
+background: -webkit-radial-gradient(center,ellipse cover,#585858 0%,#232323 100%);
+background: -webkit-radial-gradient(center ellipse,#585858 0%,#232323 100%);
+background: radial-gradient(ellipse at center,#585858 0%,#232323 100%);
+background-size: 550% 450%;
+}
