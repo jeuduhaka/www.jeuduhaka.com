@@ -54,7 +54,7 @@
         <p><b>Quand ?</b></p>
         <ul>
           <li>le samedi 30 septembre de 16h à 16h45</li>
-          <li>le dimanche 1er octobre de 15h35 à 16h30</li>
+          <li>le dimanche 1er octobre de 15h45 à 16h30</li>
         </ul>
       </div>
     </div>
@@ -160,6 +160,11 @@
                   </p>
                   <p class="author-website">
                     <a href="http://www.marckucharz.com/">www.marckucharz.com</a>
+                  </p>
+                  <p class="text-center">
+                    <a href="https://www.linkedin.com/in/marc-kucharz-197a5729">
+                      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                    </a>
                   </p>
                 </div>
               </div>

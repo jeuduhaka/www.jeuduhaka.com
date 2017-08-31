@@ -24,7 +24,7 @@
         <li><a class="{{ Route::is('photos') ? 'active' : '' }}" href="{{ URL::route('photos') }}">Photos</a></li>
         <li><a class="{{ Route::is('videos') ? 'active' : '' }}" href="{{ URL::route('videos') }}">Vidéos</a></li>
         <li>
-          <a href="mailto:kimids@hotmail.com">
+          <a href="mailto:contact@jeuduhaka.com">
             Contact
           </a>
         </li>

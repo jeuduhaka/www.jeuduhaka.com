@@ -7,7 +7,7 @@
         </a>
       </li>
       <li>
-        <a href="mailto:kimids@hotmail.com">
+        <a href="mailto:contact@jeuduhaka.com">
           <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
         </a>
       </li>
