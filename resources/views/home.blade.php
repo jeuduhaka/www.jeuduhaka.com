@@ -21,10 +21,10 @@
         Bientôt disponible en librairie et sur
       </p>
       <div class="row badges-download center-block">
-        <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
           <img class="img-responsive badge-download badge-download-first" src="img/app-store-badge.png" alt="App Store badge"/>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-xs-6 col-sm-6 col-md-4">
           <img class="img-responsive badge-download" src="img/google-play-badge.png" alt="Google Play badge"/>
         </div>
       </div>
