@@ -5,6 +5,8 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\Redirect;
+use Response;
 
 class Handler extends ExceptionHandler
 {
@@ -49,11 +51,12 @@ class Handler extends ExceptionHandler
             switch (intval($exception->getStatusCode())) {
                 // not found
                 case 404:
-                    return redirect('home', 302 )->route('home');
+                    //return redirect('home', 302 )->route('home');
+                    return Redirect::to('/', 307);
                     break;
                 // internal error
                 case 500:
-                    return \Response::view('custom.500',array(),500);
+                    return Response::view('custom.500',array(),500);
                     break;
 
                 default:
