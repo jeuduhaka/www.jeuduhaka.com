@@ -153,6 +153,11 @@ Font "La force du corps et de l'esprit est en toi" Driver Gothic Pro
   padding: 20px 0;
 }
 
+.btn-action {
+    margin-top: 10px;
+    white-space: normal;
+}
+
 .step-verb-container {
   margin-top: 10%;
 }

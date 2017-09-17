@@ -39,13 +39,13 @@
     <div class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-3">
         <div class="h3 alert alert-info">
-          Rendez-vous du <strong>28 septembre au 2 octobre 2017</strong> au <a href="https://www.salon-zen.fr/" >salon Zen de Paris</a> !
+          <p>Rendez-vous du <strong>28 septembre au 2 octobre 2017</strong> au <a href="https://www.salon-zen.fr/" >salon Zen de Paris</a> !</p>
+          <p class="h4 text-italic"><em><a href="https://www.salon-zen.fr/entree-gratuite/">>> Obtenir une entrée gratuite</a></em></p>
         </div>
-        <p><b>Où ?</b> sur le stand Guy Trédaniel</p>
       </div>
       <div class="col-xs-12 col-md-6 col-md-offset-3">
         <p class="h3">
-          Venez aussi y voir nos 2 démonstrations !
+          <a href="https://www.facebook.com/events/319416265188261/">... Et venez participer à nos 2 démonstrations</a> !
         </p>
         <p class="h5">
           avec une troupe tahitienne et Marc Kucharz, l'un des auteurs du jeu
@@ -57,6 +57,9 @@
           <li>le dimanche 1er octobre de 15h45 à 16h30</li>
         </ul>
       </div>
+      <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <a href="http://bit.ly/2jvNoUj" class="btn btn-primary btn-lg btn-block btn-action" role="button">DEVENIR UN GUERRIER DU PACIFIQUE</a>
+      </div>
     </div>
   </div>
 </section>
@@ -66,11 +69,13 @@
       <h2 class="h3 text-center">
         Avec <strong>le Jeu du Haka</strong>,
         transformez votre énergie négative en énergie
-        positive
+        positive en
       </h2>
       <p class="h3 text-center">
-        en <strong>deux temps</strong> (le corps et l’esprit)
-        <strong>trois mouvements</strong> (avoir, faire, être)
+        <strong>2 temps</strong> (le CORPS et l’ESPRIT)
+      </p>
+      <p class="h3 text-center">
+        <strong>3 mouvements</strong> (AVOIR, FAIRE, ÊTRE)
       </p>
       <p class="h3 text-center">
         et (re)trouvez le
