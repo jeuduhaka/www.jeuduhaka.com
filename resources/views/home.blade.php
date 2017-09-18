@@ -58,7 +58,7 @@
         </ul>
       </div>
       <div class="col-xs-12 col-md-6 col-md-offset-3">
-        <a href="http://bit.ly/2jvNoUj" class="btn btn-primary btn-lg btn-block btn-action" role="button">DEVENIR UN GUERRIER DU PACIFIQUE</a>
+        <a href="http://bit.ly/2jvNoUj" class="btn btn-primary btn-lg btn-block btn-action" role="button">Accéder aux formations</a>
       </div>
     </div>
   </div>
