@@ -49,20 +49,6 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-md-offset-3">
-        <p class="h3">
-          <a href="https://www.facebook.com/events/319416265188261/">... Et venez participer à nos 2 démonstrations</a> !
-        </p>
-        <p class="h5">
-          avec une troupe tahitienne et Marc Kucharz, l'un des auteurs du jeu
-        </p>
-        <p><b>Où ?</b> dans la grande cour centrale du salon Zen</p>
-        <p><b>Quand ?</b></p>
-        <ul>
-          <li>le samedi 30 septembre de 16h à 16h45</li>
-          <li>le dimanche 1er octobre de 15h45 à 16h30</li>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-md-6 col-md-offset-3">
         <a href="http://bit.ly/2jvNoUj" class="btn btn-primary btn-lg btn-block btn-action" role="button">Accéder aux formations</a>
       </div>
     </div>
