@@ -18,14 +18,19 @@
         en deux temps trois mouvements
       </p>
       <p class="h3">
-        Bientôt disponible en librairie et sur
+        Disponible en librairie en janvier 2017
+      </p>
+      <p class="h4">
+        Retrouvez votre ludocoach en vidéo sur votre smartphone !
       </p>
       <div class="row badges-download center-block">
         <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
-          <img class="img-responsive badge-download badge-download-first" src="img/app-store-badge.png" alt="App Store badge"/>
+          <a href="https://itunes.apple.com/fr/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
+            <img class="img-responsive badge-download badge-download-first" src="img/app-store-badge-fr.png" alt="App Store badge"/>
+          </a>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4">
-          <img class="img-responsive badge-download" src="img/google-play-badge.png" alt="Google Play badge"/>
+          <a href='https://play.google.com/store/apps/details?id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponible sur Google Play' src='img/google-play-badge-fr.png' class="img-responsive badge-download"/></a>
         </div>
       </div>
     </div>
