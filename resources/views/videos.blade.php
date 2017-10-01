@@ -25,7 +25,7 @@
 
 @section('content')
 <section class="section-pad container">
-  <p class="h3 text-center">
+  {{--<p class="h3 text-center">
     Présentation du Jeu du Haka
   </p>
   <div class="video-container">
@@ -33,7 +33,7 @@
     <div class="embed-responsive embed-responsive-16by9">
         <iframe src="https://www.youtube.com/embed/ozyqlE6I36M?rel=0" allowfullscreen></iframe>
     </div>
-  </div>
+  </div>--}}
   <p class="h3 text-center">
     Le Jeu du Haka en centre de vacances
   </p>
