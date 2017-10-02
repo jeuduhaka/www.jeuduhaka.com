@@ -18,7 +18,7 @@
         en deux temps trois mouvements
       </p>
       <p class="h3">
-        Disponible en librairie en janvier 2017
+        Disponible en librairie début 2018
       </p>
       <p class="h4">
         Retrouvez votre ludocoach sur votre smartphone !
