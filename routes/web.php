@@ -31,6 +31,6 @@ Route::get('/videos', ['as' => 'videos', function () {
     return view('videos');
 }]);
 
-Route::get('/apps', ['as' => 'apps', function () {
-    return view('apps');
+Route::get('/download-ludocoach', ['as' => 'download-ludocoach', function () {
+    return view('download-ludocoach');
 }]);
