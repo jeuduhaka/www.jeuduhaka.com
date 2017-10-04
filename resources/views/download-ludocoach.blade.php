@@ -59,7 +59,7 @@
 
         .Absolute-Center.is-Responsive {
             min-width: 200px;
-            padding: 40px;
+            padding: 15px;
             text-align: center;
         }
         .img-badge {
