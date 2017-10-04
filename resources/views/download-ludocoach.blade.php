@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    @hasSection ('title')
-    <title>@yield('title') - Le Jeu du Haka</title>
-    @else
-        <title>Le Jeu du Haka</title>
-    @endif
+    <title>Application gratuite Jeu du Haka Ludocoach</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -26,7 +22,7 @@
     <meta name="keywords"
           content="jeux, haka, formation, polynésie, tahiti, coaching, coach, serious games, bien être, épanouissement personnel, marc kucharz"/>
     <meta name="description"
-          content="Téléchargez gratuitement l'application Ludocoach du Jeu du Haka!"/>
+          content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
     <meta name="robots" content="index,follow"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
