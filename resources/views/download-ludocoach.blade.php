@@ -26,7 +26,7 @@
     <meta name="keywords"
           content="jeux, haka, formation, polynésie, tahiti, coaching, coach, serious games, bien être, épanouissement personnel, marc kucharz"/>
     <meta name="description"
-          content="Avec le Jeu du Haka, transformez votre énergie négative en énergie positive en deux temps (le CORPS et l'ESPRIT), trois mouvements (AVOIR, FAIRE, ÊTRE)"/>
+          content="Téléchargez gratuitement l'application Ludocoach du Jeu du Haka!"/>
     <meta name="robots" content="index,follow"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,7 +97,7 @@
                      alt="Jeu du Haka logo">
                 <div class="block-text">
                     <div class="title">Le Jeu du Haka Ludocoach</div>
-                    <div class="subtitle">Ça fait du bien et c'est gratuit!</div>
+                    <div class="subtitle">C'est une application qui fait du bien et c'est gratuit!</div>
                     <div class="subtitle">A partager! :)</div>
                 </div>
                 <a href="https://itunes.apple.com/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
