@@ -30,3 +30,7 @@ Route::get('/photos', ['as' => 'photos', function () {
 Route::get('/videos', ['as' => 'videos', function () {
     return view('videos');
 }]);
+
+Route::get('/apps', ['as' => 'apps', function () {
+    return view('apps');
+}]);

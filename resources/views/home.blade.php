@@ -25,7 +25,7 @@
       </p>
       <div class="row badges-download center-block">
         <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
-          <a href="https://itunes.apple.com/fr/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
+          <a href="https://itunes.apple.com/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
             <img class="img-responsive badge-download badge-download-first" src="img/app-store-badge-fr.png" alt="App Store badge"/>
           </a>
         </div>
