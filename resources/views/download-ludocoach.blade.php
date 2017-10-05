@@ -107,7 +107,7 @@
                     <img class="img-responsive img-badge" src="{{ request()->root() }}/img/app-store-badge-fr.png"
                          alt="Disponible sur App Store"/>
                 </a>
-                <a href='https://play.google.com/store/apps/details?id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <a href='https://play.google.com/store/apps/details?hl=fr&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
                     <img alt='Disponible sur Google Play' src='{{ request()->root() }}/img/google-play-badge-fr.png'
                          class="img-responsive img-badge"/>
                 </a>

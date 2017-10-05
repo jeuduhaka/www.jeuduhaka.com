@@ -30,7 +30,7 @@
           </a>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4">
-          <a href='https://play.google.com/store/apps/details?id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponible sur Google Play' src='img/google-play-badge-fr.png' class="img-responsive badge-download"/></a>
+          <a href='https://play.google.com/store/apps/details?hl=fr&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponible sur Google Play' src='img/google-play-badge-fr.png' class="img-responsive badge-download"/></a>
         </div>
       </div>
     </div>
