@@ -26,6 +26,7 @@
     <![endif]-->
     <meta property="og:title" content="Application gratuite Jeu du Haka Ludocoach"/>
     <meta property="og:description" content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
+    <meta property="og:image" content="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-facebook-1200x630.jpg"/>
     {{-- no cache --}}
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
