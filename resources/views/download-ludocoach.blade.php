@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,6 +26,7 @@
     <![endif]-->
     <meta property="og:title" content="Application gratuite Jeu du Haka Ludocoach"/>
     <meta property="og:description" content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
+    <meta property="og:url" content="https://www.jeuduhaka.com/application" />
     <meta property="og:image" content="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-facebook-1200x630.jpg"/>
     {{-- no cache --}}
     <meta http-equiv="cache-control" content="max-age=0" />
