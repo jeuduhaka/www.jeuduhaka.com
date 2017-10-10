@@ -24,8 +24,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta property="og:title" content="Application gratuite Jeu du Haka Ludocoach"/>
-    <meta property="og:description" content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
+    <meta property="og:title" content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
+    <meta property="og:description" content="sur iPhone et Android"/>
     <meta property="og:url" content="https://www.jeuduhaka.com/application" />
     <meta property="og:image" content="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-facebook-1200x630-vague.jpg"/>
     {{-- no cache --}}
