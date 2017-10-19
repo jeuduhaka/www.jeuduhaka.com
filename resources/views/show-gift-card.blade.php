@@ -73,6 +73,7 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
         }
         .subtitle {
             font-size: 24px;
+            font-family: "charcuterie_sans_inlineRg";
         }
         .title {
             font-family: "charcuterie_sans_inlineRg";
@@ -104,6 +105,7 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
 
             <div class="block-text">
                 <div class="title">Carte cadeau Le Jeu du Haka</div>
+                <div class="subtitle"><a href="https://www.jeuduhaka.com">www.jeuduhaka.com</a></div>
             </div>
             <br/>
             <img class="img-gift-card" src="{{ request()->root() }}/img/giftcards/carte-cadeau-{{ Request::get('name') }}.jpg">
