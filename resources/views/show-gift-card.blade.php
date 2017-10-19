@@ -1,3 +1,7 @@
+@php
+$nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
+@endphp
+
 <!doctype html>
 <html lang="{{ app()->getLocale() }}" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
@@ -5,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pour toi : carte cadeau {{ Request::get('name') }}</title>
+    <title>Pour toi : carte cadeau {{ $nomCarte }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="css/fonts.css"/>
@@ -22,7 +26,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta property="og:title" content="Pour toi : carte cadeau {{ Request::get('name') }}"/>
+    <meta property="og:title" content="Pour toi : carte cadeau {{ $nomCarte }}"/>
     <meta property="og:description" content="Le Jeu du Haka - www.jeuduhaka.com"/>
     <meta property="og:url" content="https://www.jeuduhaka.com/gift?name={{ Request::get('name') }}" />
     <meta property="og:image" content="{{ request()->root() }}/img/giftcards/carte-cadeau-{{ Request::get('name') }}.jpg"/>
@@ -89,6 +93,7 @@
         }
         .img-gift-card {
             max-height: 80%;
+            max-width: 100%;
         }
     </style>
 </head>
