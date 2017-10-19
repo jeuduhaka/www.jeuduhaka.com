@@ -38,3 +38,7 @@ Route::get('/download-ludocoach', function () {
 Route::get('/application', function () {
     return view('download-ludocoach');
 });
+
+Route::get('/gift', function () {
+    return view('show-gift-card');
+});
