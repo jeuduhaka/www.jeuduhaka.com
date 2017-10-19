@@ -24,7 +24,7 @@
     <![endif]-->
     <meta property="og:title" content="Pour toi : carte cadeau {{ Request::get('name') }}"/>
     <meta property="og:description" content="Le Jeu du Haka - www.jeuduhaka.com"/>
-    <meta property="og:url" content="https://www.jeuduhaka.com/gift/?name={{ Request::get('name') }}" />
+    <meta property="og:url" content="https://www.jeuduhaka.com/gift?name={{ Request::get('name') }}" />
     <meta property="og:image" content="{{ request()->root() }}/img/giftcards/carte-cadeau-{{ Request::get('name') }}.jpg"/>
     {{-- no cache --}}
     <meta http-equiv="cache-control" content="max-age=0" />
