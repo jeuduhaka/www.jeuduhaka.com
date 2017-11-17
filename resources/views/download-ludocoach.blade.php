@@ -109,11 +109,11 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
                     <div class="subtitle">{{ __('application.downloadAndShare') }}</div>
                 </div>
                 <a href="https://itunes.apple.com/{{ $appStoreCountry }}/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
-                    <img class="img-responsive img-badge" src="{{ request()->root() }}/img/app-store-badge-fr.png"
+                    <img class="img-responsive img-badge" src="{{ request()->root() }}/img/badges/app-store-badge-{{ $locale }}.png"
                          alt="{{ __('application.availableAppStore') }}"/>
                 </a>
                 <a href='https://play.google.com/store/apps/details?hl={{ $locale }}&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                    <img alt='{{ __('application.availableGooglePlay') }}' src='{{ request()->root() }}/img/google-play-badge-fr.png'
+                    <img alt='{{ __('application.availableGooglePlay') }}' src='{{ request()->root() }}/img/badges/google-play-badge-{{ $locale }}.png'
                          class="img-responsive img-badge"/>
                 </a>
             </div>
