@@ -1,5 +1,9 @@
 @php
-$nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
+$cardName = ucfirst(__('gift.'.Request::get('name')));
+$title = __('gift.metaTitle', ['cardName' => $cardName]);
+
+$locale = App::getLocale();
+$giftCardImage = Request::root().'/img/giftcards/'.$locale.'/carte-cadeau-'.Request::get('name').'-'.$locale.'.jpg';
 @endphp
 
 <!doctype html>
@@ -9,7 +13,7 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pour toi : carte cadeau {{ $nomCarte }}</title>
+    <title>{{ $title  }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="css/fonts.css"/>
@@ -18,7 +22,7 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
     <link rel="icon" href="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-180x180.png"/>
     <meta name="description"
-          content="Le Jeu du Haka - www.jeuduhaka.com"/>
+          content="{{ __('gift.hakaGame') }} - www.jeuduhaka.com"/>
     <meta name="robots" content="index,follow"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,10 +30,10 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta property="og:title" content="Pour toi : carte cadeau {{ $nomCarte }}"/>
-    <meta property="og:description" content="Le Jeu du Haka - www.jeuduhaka.com"/>
-    <meta property="og:url" content="https://www.jeuduhaka.com/gift?name={{ Request::get('name') }}" />
-    <meta property="og:image" content="{{ request()->root() }}/img/giftcards/carte-cadeau-{{ Request::get('name') }}.jpg"/>
+    <meta property="og:title" content="{{ $title }}"/>
+    <meta property="og:description" content="{{ __('gift.hakaGame') }} - www.jeuduhaka.com"/>
+    <meta property="og:url" content="{{ Request::fullUrl() }}" />
+    <meta property="og:image" content="{{ $giftCardImage }}"/>
     {{-- no cache --}}
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -54,7 +58,9 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
     </script>
     <style>
         html {
-            background-size: cover
+            /*background: url(/img/fond-bleu-vague-1980x1980-alpha0.5.jpg) no-repeat center center fixed;*/
+            background-color: ;
+            background-size: cover;
         }
         .Absolute-Center {
             margin: auto;
@@ -104,14 +110,14 @@ $nomCarte = ucfirst(str_replace('-',' ',Request::get('name')));
         <div class="Absolute-Center is-Responsive">
 
             <div class="block-text">
-                <div class="title">Carte cadeau Le Jeu du Haka</div>
+                <div class="title">{{ __('gift.bodyTitle') }}</div>
                 <div class="subtitle"><a href="https://www.jeuduhaka.com">www.jeuduhaka.com</a></div>
             </div>
             <br/>
-            <img class="img-gift-card" src="{{ request()->root() }}/img/giftcards/carte-cadeau-{{ Request::get('name') }}.jpg">
+            <img class="img-gift-card" src="{{ $giftCardImage }}">
             <br/>
             <br/>
-            <div class="title">Appli gratuite</div>
+            <div class="title">{{ __('gift.freeApp') }}</div>
             <a href="https://itunes.apple.com/fr/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
                 <img class="img-responsive img-badge" src="{{ request()->root() }}/img/app-store-badge-fr.png"
                      alt="Disponible sur App Store"/>
