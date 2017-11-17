@@ -40,10 +40,29 @@ Route::get('/application', function () {
 });
 
 Route::get('/gift/', function () {
-    return view('show-gift-card');
+    if (!($cardName = Request::get('name')) || !Lang::has('gift.'.$cardName)) {
+        return Redirect::route('home');
+    }
+
+    return view('show-gift-card', [
+        'cardName' => $cardName
+    ]);
 });
-Route::get('/gift/{locale}', function ($locale) {
+
+Route::get('/gift/{locale}/{cardName}', function ($locale, $cardName) {
+    if (!Lang::has('gift.'.$cardName)) {
+        return Redirect::route('home');
+    }
+
     App::setLocale($locale);
 
-    return view('show-gift-card');
-});
+    return view('show-gift-card', [
+        'cardName' => $cardName
+    ]);
+})->where([
+    'locale' => '[a-z]{2}',
+    'cardName' => '[a-z]+',
+]);
+
+
+

@@ -1,9 +1,9 @@
 @php
-$cardName = ucfirst(__('gift.'.Request::get('name')));
-$title = __('gift.metaTitle', ['cardName' => $cardName]);
+$capitalizedCardName = ucfirst(__('gift.'.$cardName));
+$title = __('gift.metaTitle', ['cardName' => $capitalizedCardName]);
 
 $locale = App::getLocale();
-$giftCardImage = Request::root().'/img/giftcards/'.$locale.'/carte-cadeau-'.Request::get('name').'-'.$locale.'.jpg';
+$giftCardImage = Request::root().'/img/giftcards/'.$locale.'/carte-cadeau-'.$cardName.'-'.$locale.'.jpg';
 @endphp
 
 <!doctype html>
