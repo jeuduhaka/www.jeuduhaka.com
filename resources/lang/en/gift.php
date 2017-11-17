@@ -1,7 +1,7 @@
 <?php
 return [
     'metaTitle' => 'For you: :cardName gift card',
-    'hakaGame' => "Haka's Game",
+    'hakaGame' => "The Haka's Game",
     'bodyTitle' => "Haka's Game Gift Card",
     'freeApp' => 'Free App',
     'availableAppStore' => 'Available on App Store',
