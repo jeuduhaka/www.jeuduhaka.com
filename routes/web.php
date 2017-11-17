@@ -39,6 +39,14 @@ Route::get('/application', function () {
     return view('download-ludocoach');
 });
 
+Route::get('/application/{locale}', function ($locale) {
+    App::setLocale($locale);
+
+    return view('download-ludocoach');
+})->where([
+    'locale' => '[a-z]{2}',
+]);
+
 Route::get('/gift/', function () {
     if (!($cardName = Request::get('name')) || !Lang::has('gift.'.$cardName)) {
         return Redirect::route('home');

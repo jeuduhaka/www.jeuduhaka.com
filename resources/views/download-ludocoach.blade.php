@@ -1,3 +1,7 @@
+@php
+$locale = App::getLocale();
+$appStoreCountry = $locale === 'en' ? 'us' : $locale;
+@endphp
 <!doctype html>
 <html lang="{{ app()->getLocale() }}" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
@@ -5,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Application gratuite Jeu du Haka Ludocoach</title>
+    <title>{{ __('application.metaTitle') }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="css/fonts.css"/>
@@ -16,7 +20,7 @@
     <meta name="keywords"
           content="jeux, haka, formation, polynésie, tahiti, coaching, coach, serious games, bien être, épanouissement personnel, marc kucharz"/>
     <meta name="description"
-          content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
+          content="{{ __('application.metaDescription') }}"/>
     <meta name="robots" content="index,follow"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,8 +28,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta property="og:title" content="Téléchargez gratuitement l'application Jeu du Haka Ludocoach!"/>
-    <meta property="og:description" content="sur iPhone et Android"/>
+    <meta property="og:title" content="{{ __('application.ogTitle') }}"/>
+    <meta property="og:description" content="{{ __('application.ogDescription') }}"/>
     <meta property="og:url" content="https://www.jeuduhaka.com/application" />
     <meta property="og:image" content="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-facebook-1200x630-vague.jpg"/>
     {{-- no cache --}}
@@ -100,16 +104,16 @@
                 <img class="img-responsive-for-absolute" src="{{ request()->root() }}/img/logo/logo-coffret-200px.png"
                      alt="Jeu du Haka logo">
                 <div class="block-text">
-                    <div class="title">Le Jeu du Haka Ludocoach</div>
-                    <div class="subtitle">C'est une application qui fait du bien et c'est gratuit!</div>
-                    <div class="subtitle">A télécharger et à partager! :)</div>
+                    <div class="title">{{ __('application.hakasGameLudocoach') }}</div>
+                    <div class="subtitle">{{ __('application.appGoodAndFree') }}</div>
+                    <div class="subtitle">{{ __('application.downloadAndShare') }}</div>
                 </div>
-                <a href="https://itunes.apple.com/fr/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
+                <a href="https://itunes.apple.com/{{ $appStoreCountry }}/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
                     <img class="img-responsive img-badge" src="{{ request()->root() }}/img/app-store-badge-fr.png"
-                         alt="Disponible sur App Store"/>
+                         alt="{{ __('application.availableAppStore') }}"/>
                 </a>
-                <a href='https://play.google.com/store/apps/details?hl=fr&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                    <img alt='Disponible sur Google Play' src='{{ request()->root() }}/img/google-play-badge-fr.png'
+                <a href='https://play.google.com/store/apps/details?hl={{ $locale }}&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                    <img alt='{{ __('application.availableGooglePlay') }}' src='{{ request()->root() }}/img/google-play-badge-fr.png'
                          class="img-responsive img-badge"/>
                 </a>
             </div>
