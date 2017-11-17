@@ -120,10 +120,10 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
             <div class="title">{{ __('gift.freeApp') }}</div>
             <a href="https://itunes.apple.com/{{ $appStoreCountry }}/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
                 <img class="img-responsive img-badge" src="{{ request()->root() }}/img/badges/app-store-badge-{{ app()->getLocale() }}.png"
-                     alt="Disponible sur App Store"/>
+                     alt="{{ __('gift.availableAppStore') }}"/>
             </a>
             <a href='https://play.google.com/store/apps/details?hl={{ app()->getLocale() }}&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img alt='Disponible sur Google Play' src='{{ request()->root() }}/img/badges/google-play-badge-{{ app()->getLocale() }}.png'
+                <img alt='{{ __('gift.availableGooglePlay') }}' src='{{ request()->root() }}/img/badges/google-play-badge-{{ app()->getLocale() }}.png'
                      class="img-responsive img-badge"/>
             </a>
         </div>

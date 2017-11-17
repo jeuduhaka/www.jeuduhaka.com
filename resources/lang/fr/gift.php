@@ -4,6 +4,8 @@ return [
     'hakaGame' => 'Le Jeu du Haka',
     'bodyTitle' => 'Carte cadeau Le Jeu du Haka',
     'freeApp' => 'Appli gratuite',
+    'availableAppStore' => 'Disponible sur App Store',
+    'availableGooglePlay' => 'Disponible sur Google Play',
 
     'calme' => 'calme',
     'amour' => 'amour',

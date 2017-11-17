@@ -4,6 +4,8 @@ return [
     'hakaGame' => "Haka's Game",
     'bodyTitle' => "Haka's Game Gift Card",
     'freeApp' => 'Free App',
+    'availableAppStore' => 'Available on App Store',
+    'availableGooglePlay' => 'Available on Google Play',
     
     'calme' => 'calm',
     'amour' => 'love',
