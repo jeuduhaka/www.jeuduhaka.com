@@ -12,8 +12,8 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
     <title>{{ __('application.metaTitle') }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen" href="css/fonts.css"/>
-    <link rel="stylesheet" media="screen" href="css/styles.css"/>
+    <link rel="stylesheet" media="screen" href="{{ request()->root() }}/css/fonts.css"/>
+    <link rel="stylesheet" media="screen" href="{{ request()->root() }}/css/styles.css"/>
     <link rel="icon" href="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-32x32.png" sizes="32x32"/>
     <link rel="icon" href="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-180x180.png"/>
