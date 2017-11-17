@@ -13,4 +13,13 @@ return [
     'energie' => 'énergie',
     'confiance' => 'confiance',
     'force' => 'force',
+
+    'calm' => 'calme',
+    'love' => 'amour',
+    'self-esteem' => 'estime de soi',
+    'peace' => 'paix',
+    'joy' => 'joie',
+    'energy' => 'énergie',
+    'confidence' => 'confiance',
+    'strength' => 'force',
 ];

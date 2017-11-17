@@ -3,7 +3,7 @@ $capitalizedCardName = ucfirst(__('gift.'.$cardName));
 $title = __('gift.metaTitle', ['cardName' => $capitalizedCardName]);
 
 $locale = App::getLocale();
-$giftCardImage = Request::root().'/img/giftcards/'.$locale.'/carte-cadeau-'.$cardName.'-'.$locale.'.jpg';
+$giftCardImage = Request::root().'/img/giftcards/'.$locale.'/gift-card-'.$cardName.'-'.$locale.'.jpg';
 $appStoreCountry = $locale === 'en' ? 'us' : $locale;
 @endphp
 <!doctype html>
