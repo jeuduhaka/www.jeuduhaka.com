@@ -30,7 +30,7 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
     <![endif]-->
     <meta property="og:title" content="{{ __('application.ogTitle') }}"/>
     <meta property="og:description" content="{{ __('application.ogDescription') }}"/>
-    <meta property="og:url" content="https://www.jeuduhaka.com/application" />
+    <meta property="og:url" content="{{ Request::fullUrl() }}" />
     <meta property="og:image" content="{{ request()->root() }}/img/iphone-jeu-du-haka/iphone-jeu-du-haka-facebook-1200x630-vague.jpg"/>
     {{-- no cache --}}
     <meta http-equiv="cache-control" content="max-age=0" />
