@@ -26,11 +26,13 @@
       <div class="row badges-download center-block">
         <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
           <a href="https://itunes.apple.com/fr/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
-            <img class="img-responsive badge-download badge-download-first" src="img/app-store-badge-fr.png" alt="App Store badge"/>
+            <img class="img-responsive badge-download badge-download-first" src="img/badges/app-store-badge-fr.png" alt="App Store badge"/>
           </a>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4">
-          <a href='https://play.google.com/store/apps/details?hl=fr&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponible sur Google Play' src='img/google-play-badge-fr.png' class="img-responsive badge-download"/></a>
+          <a href='https://play.google.com/store/apps/details?hl=fr&id=com.marckucharz.jeuduhakaludocoach&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img alt='Disponible sur Google Play' src='img/badges/google-play-badge-fr.png' class="img-responsive badge-download"/>
+          </a>
         </div>
       </div>
     </div>
