@@ -39,6 +39,11 @@ Route::get('/application', function () {
     return view('download-ludocoach');
 });
 
-Route::get('/gift', function () {
+Route::get('/gift/', function () {
+    return view('show-gift-card');
+});
+Route::get('/gift/{locale}', function ($locale) {
+    App::setLocale($locale);
+
     return view('show-gift-card');
 });
