@@ -52,7 +52,7 @@ Route::get('/gift/', function () {
         return Redirect::route('home');
     }
 
-    return view('show-gift-card', [
+    return view('gift-card', [
         'cardName' => $cardName
     ]);
 });
@@ -64,7 +64,7 @@ Route::get('/gift/{locale}/{cardName}', function ($locale, $cardName) {
 
     App::setLocale($locale);
 
-    return view('show-gift-card', [
+    return view('gift-card', [
         'cardName' => $cardName
     ]);
 })->where([
