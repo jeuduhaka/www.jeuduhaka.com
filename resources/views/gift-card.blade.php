@@ -1,10 +1,21 @@
 @php
+
+$title = '';
+$bodyTitle = '';
 $capitalizedCardName = ucfirst(__('gift.'.$cardName));
-$title = __('gift.metaTitle', ['cardName' => $capitalizedCardName]);
+
+if (Route::current()->getName() === 'giftnewyear') {
+    $title = __('gift.metaTitleNewYear', ['cardName' => $capitalizedCardName]);
+    $bodyTitle = __('gift.bodyTitleNewYear');
+} else {
+    $title = __('gift.metaTitle', ['cardName' => $capitalizedCardName]);
+    $bodyTitle = __('gift.bodyTitle');
+}
 
 $locale = App::getLocale();
 $giftCardImage = Request::root().'/img/giftcards/'.$locale.'/gift-card-'.$cardName.'-'.$locale.'.jpg';
 $appStoreCountry = $locale === 'en' ? 'us' : $locale;
+
 @endphp
 <!doctype html>
 <html lang="{{ app()->getLocale() }}" xmlns:fb="http://ogp.me/ns/fb#">
@@ -99,7 +110,7 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
             margin-bottom: 10px;
         }
         .img-gift-card {
-            max-height: 80%;
+            max-height: 60%;
             max-width: 100%;
         }
     </style>
@@ -110,13 +121,13 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
         <div class="Absolute-Center is-Responsive">
 
             <div class="block-text">
-                <div class="title">{{ __('gift.bodyTitle') }}</div>
-                <div class="subtitle"><a href="https://www.jeuduhaka.com">www.jeuduhaka.com</a></div>
+                <div class="title">{{ $bodyTitle }}</div>
             </div>
             <br/>
             <img class="img-gift-card" src="{{ $giftCardImage }}">
             <br/>
             <br/>
+            <div class="subtitle"><a href="https://www.jeuduhaka.com">www.jeuduhaka.com</a></div>
             <div class="title">{{ __('gift.freeApp') }}</div>
             <a href="https://itunes.apple.com/{{ $appStoreCountry }}/app/hakas-game-ludocoach/id1289735068&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
                 <img class="img-responsive img-badge" src="{{ request()->root() }}/img/badges/app-store-badge-{{ app()->getLocale() }}.png"

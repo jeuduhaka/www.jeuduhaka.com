@@ -47,8 +47,9 @@ Route::get('/application/{locale}', function ($locale) {
     'locale' => '[a-z]{2}',
 ]);
 
+//for legacy links
 Route::get('/gift/', function () {
-    if (!($cardName = Request::get('name')) || !Lang::has('gift.'.$cardName)) {
+    if (!($cardName = Request::get('name')) || !Lang::has('gift.' . $cardName)) {
         return Redirect::route('home');
     }
 
@@ -57,8 +58,9 @@ Route::get('/gift/', function () {
     ]);
 });
 
-Route::get('/gift/{locale}/{cardName}', function ($locale, $cardName) {
-    if (!Lang::has('gift.'.$cardName)) {
+
+$giftViewFunc = function ($locale, $cardName) {
+    if (!Lang::has('gift.' . $cardName)) {
         return Redirect::route('home');
     }
 
@@ -67,10 +69,15 @@ Route::get('/gift/{locale}/{cardName}', function ($locale, $cardName) {
     return view('gift-card', [
         'cardName' => $cardName
     ]);
-})->where([
+};
+
+$giftViewParamsRegexArray = [
     'locale' => '[a-z]{2}',
     'cardName' => '[a-z]+',
-]);
+];
+
+Route::get('/gift/{locale}/{cardName}', ['as' => 'gift', $giftViewFunc])->where($giftViewParamsRegexArray);
+Route::get('/gift/newyear/{locale}/{cardName}', ['as' => 'giftnewyear', $giftViewFunc])->where($giftViewParamsRegexArray);
 
 
 

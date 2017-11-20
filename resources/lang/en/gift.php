@@ -1,8 +1,10 @@
 <?php
 return [
     'metaTitle' => 'For you: :cardName gift card',
+    'metaTitleNewYear' => 'Happy New Year! - :cardName',
     'hakaGame' => "The Haka's Game",
     'bodyTitle' => "Haka's Game Gift Card",
+    'bodyTitleNewYear' => 'Happy New year!',
     'freeApp' => 'Free App',
     'availableAppStore' => 'Available on App Store',
     'availableGooglePlay' => 'Available on Google Play',
