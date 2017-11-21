@@ -21,7 +21,7 @@
         Disponible en librairie début 2018
       </p>
       <p class="h4">
-        Retrouvez votre ludocoach sur votre smartphone !
+        Et retrouvez déjà votre ludocoach sur votre smartphone !
       </p>
       <div class="row badges-download center-block">
         <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
