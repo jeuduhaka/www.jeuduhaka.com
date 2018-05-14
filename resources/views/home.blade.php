@@ -18,10 +18,10 @@
         en deux temps trois mouvements
       </p>
       <p class="h3">
-        Disponible en librairie début 2018
+        <a href="https://www.amazon.fr/dp/281321616X/" class="btn btn-warning btn-lg">Acheter sur Amazon</a>
       </p>
       <p class="h4">
-        Et retrouvez déjà votre ludocoach sur votre smartphone !
+        Retrouvez aussi votre ludocoach sur votre smartphone !
       </p>
       <div class="row badges-download center-block">
         <div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-2">
