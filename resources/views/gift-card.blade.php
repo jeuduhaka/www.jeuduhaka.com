@@ -129,7 +129,6 @@ $appStoreCountry = $locale === 'en' ? 'us' : $locale;
             <br/>
             <div class="subtitle"><a href="https://www.jeuduhaka.com">www.jeuduhaka.com</a></div>
             <div class="title">{{ __('gift.freeApp') }}</div>
-            https://apps.apple.com/us/app/the-hakas-game-ludocoach/id1289735068?l=fr&ls=1&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com
             <a href="https://itunes.apple.com/{{ $appStoreCountry }}/app/the-hakas-game-ludocoach/id1289735068?l=fr&ls=1&utm_source=jeuduhaka.com&utm_campaign=jeuduhaka.com">
                 <img class="img-responsive img-badge" src="{{ request()->root() }}/img/badges/app-store-badge-{{ app()->getLocale() }}.png"
                      alt="{{ __('gift.availableAppStore') }}"/>
